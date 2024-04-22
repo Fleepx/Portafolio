@@ -21,7 +21,7 @@
 </head>
 <body>
   <!--Menu-->
-    <menu class="m-3">
+    <menu class="p-3 menu">
         <ul class="nav justify-content-end">
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="#">Acerca de mi</a>
@@ -40,13 +40,18 @@
 
   <!--Cuerpo-->
     <main class="mt-5">
-      <div class="container d-flex flex-row cuerpo">
+      <div class="container">
+        <div class="row box justify-content-between">
+          <div class="col-12 col-md-4 flex-sm-fill">
+            <img src="./assets/imgs/img-micro.jpg" alt="FotoPerfil" class="perfil rounded-circle img-fluid">
+          </div>
+         
+          <div class="col-12 col-md-8 mt-5">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis quo mollitia animi sequi sit! Blanditiis eum saepe dolorum. Hic id voluptate libero, molestias recusandae temporibus odio odit. Corrupti, doloremque  <br>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo esse voluptate molestias facilis labore illum totam aut, tempora hic eaque voluptatibus mollitia ex non, assumenda atque ullam pariatur, iste id? <br>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, quibusdam, nesciunt debitis temporibus veritatis natus libero reprehenderit, sapiente necessitatibus tempora ducimus quis vero ea eos porro et fugit perspiciatis illo.</p>
 
-        <img src="./assets/imgs/img-micro.jpg" alt="FotoPerfil" class="perfil">
-        <div class="texto">
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis quo mollitia animi sequi sit! Blanditiis eum saepe dolorum. Hic id voluptate libero, molestias recusandae temporibus odio odit. Corrupti, doloremque laudantium.</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo esse voluptate molestias facilis labore illum totam aut, tempora hic eaque voluptatibus mollitia ex non, assumenda atque ullam pariatur, iste id?</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, quibusdam, nesciunt debitis temporibus veritatis natus libero reprehenderit, sapiente necessitatibus tempora ducimus quis vero ea eos porro et fugit perspiciatis illo.</p>
+        </div>
 
         </div>
 
@@ -59,7 +64,7 @@
 
   <!--Despliegues-->
     <nav class="w-auto shadow p-3 mb-5 bg-body-tertiary rounded">
-        <div class="container mt-5 ml-0">
+        <div class="container mt-5 ml-0 col col-sm-12">
             <ul class="nav nav-tabs" id="myTab" role="tablist">
               <li class="nav-item">
                 <a class="nav-link active" id="tab1-tab" data-toggle="tab" href="#tab1" role="tab" aria-controls="tab1" aria-selected="true">Educación <i class="fa-solid fa-graduation-cap"></i></a>
@@ -73,22 +78,39 @@
             </ul>
             <div class="tab-content" id="myTabContent">
               <div class="tab-pane fade show active" id="tab1" role="tabpanel" aria-labelledby="tab1-tab">
-                <ul class="ml-4 mt-4">
-                    <li class="my-2">2011 Cuarto Medio - Colegio Los Alpes Educa UC</li>
+                <ul class="list-unstyled ml-4 mt-4">
+                    <li class="my-2">2011 Cuarto Medio en Colegio Los Alpes Educa UC</li>
                     <li class="my-2">2012 Kinesiología en la Universidad Nacional Andrés Bello</li>
                     <li class="my-2">2015 Masoterapia Integral en el Instituto Profesional de Chile</li>
                     <li class="my-2">2024 BootCamp de Full Stack en Academia Desafio Latam</li>
                 </ul>
               </div>
               <div class="tab-pane fade" id="tab2" role="tabpanel" aria-labelledby="tab2-tab">
-                <ul class="ml-4 mt-4">
-                    <li><h5>Masajes</h5></li>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil placeat fuga praesentium dolorem atque itaque voluptate sint porro vero eos aliquam, optio harum rem animi dolorum sequi. Vitae, excepturi autem.</p>
-                    <li><h5>Sodimac</h5></li>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, perferendis? Magni, cupiditate tenetur! Provident voluptates sit facere natus laudantium, ipsa eius et possimus repellendus libero laboriosam, modi omnis cupiditate deleniti!</p>
-                    <li><h5>Pulmahue</h5></li>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro quas, doloremque incidunt earum minima optio sint assumenda, modi hic nesciunt sit voluptatem! Sequi tempore temporibus fugit officiis, ad quas consequuntur.</p>
-                </ul>
+                <div class="ml-4 mt-4">
+                    
+                    <blockquote class="blockquote">
+                      <p>Masoterapeuta (2015 - 2024)</p>
+                    </blockquote>
+                    <figcaption class="blockquote-footer">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, numquam unde laboriosam error obcaecati minus porro rem nesciunt in. Commodi dignissimos atque, et vel dicta ducimus maiores beatae! Atque, explicabo! 
+                    </figcaption>
+                    
+                    <blockquote class="blockquote">
+                      <p>Sodimac (2017 - 2020)</p>
+                    </blockquote>
+                    <figcaption class="blockquote-footer">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, eius molestias pariatur est adipisci perferendis corrupti. Ullam, fuga alias! Dolorem odit eum dignissimos sequi iste ullam quod molestiae animi et.
+                    </figcaption>
+
+                    <blockquote class="blockquote">
+                      <p>Pulmahue (2021 - 2024)</p>
+                    </blockquote>
+                    <figcaption class="blockquote-footer">
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam incidunt consequatur, tempore explicabo reiciendis, eveniet dolorum quod fuga facere et magnam! Neque nihil vitae blanditiis eos, alias enim quibusdam animi!
+                    </figcaption>
+                    
+
+                </div>
               </div>
               <div class="tab-pane fade" id="tab3" role="tabpanel" aria-labelledby="tab3-tab">
                 
@@ -101,6 +123,9 @@
                     </h2>
                     <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
                       <div class="accordion-body">
+                        <div class="">
+                          <img src="./assets/imgs/TATTOO.PNG" alt="PageExampleTatttoo" class="img-fluid">
+                        </div>
                         <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
                       </div>
                     </div>
@@ -113,6 +138,7 @@
                     </h2>
                     <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                       <div class="accordion-body">
+                        <img src="./assets/imgs/Iguanas_page-0001.jpg" alt="ExamplePageMaqueta" class="img-fluid">
                         <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
                       </div>
                     </div>
@@ -125,6 +151,7 @@
                     </h2>
                     <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                       <div class="accordion-body">
+                        <img src="./assets/imgs/CUPPON.PNG" alt="ExamplpeePageCuppon" class="img-fluid">
                         <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
                       </div>
                     </div>
@@ -137,6 +164,7 @@
                     </h2>
                     <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                       <div class="accordion-body">
+                        <img src="./assets/imgs/GIT.PNG" alt="ExamplePageGit" class="img-fluid">
                         <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
                       </div>
                     </div>

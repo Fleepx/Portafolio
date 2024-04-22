@@ -3,12 +3,10 @@
     padding: 0;
     font-family: "Montserrat", sans-serif;
 }
-.cuerpo {
-    gap: 8rem;
+.menu {
+    background-color:darkgrey;
 }
 .perfil {
-    height: 45rem;
-}
-.texto {
-    width: 30rem;
+    width: auto;
+    justify-content: start;
 }

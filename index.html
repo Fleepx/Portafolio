@@ -24,13 +24,13 @@
     <menu class="p-3 menu">
         <ul class="nav justify-content-end">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Acerca de mi</a>
+          <a class="nav-link active" aria-current="page" href="./index.html#aboutme">Acerca de mi</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Trabajos</a>
+          <a class="nav-link" href="./index.html#trabajos">Trabajos</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Contacto</a>
+          <a class="nav-link" href="./index.html#contacto">Contacto</a>
         </li>
         <li class="nav-item">
           <a class="nav-link disabled" aria-disabled="true"></a>
@@ -39,14 +39,14 @@
     </menu>
 
   <!--Cuerpo-->
-    <main class="mt-5">
+    <main class="mt-5" id="aboutme">
       <div class="container">
         <div class="row box justify-content-between">
-          <div class="col-12 col-md-4 flex-sm-fill">
+          <div class="col-12 col-md-4 flex-sm-fill mt-4">
             <img src="./assets/imgs/img-micro.jpg" alt="FotoPerfil" class="perfil rounded-circle img-fluid">
           </div>
          
-          <div class="col-12 col-md-8 mt-5">
+          <div class="col-12 col-md-8 mt-4">
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis quo mollitia animi sequi sit! Blanditiis eum saepe dolorum. Hic id voluptate libero, molestias recusandae temporibus odio odit. Corrupti, doloremque  <br>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo esse voluptate molestias facilis labore illum totam aut, tempora hic eaque voluptatibus mollitia ex non, assumenda atque ullam pariatur, iste id? <br>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, quibusdam, nesciunt debitis temporibus veritatis natus libero reprehenderit, sapiente necessitatibus tempora ducimus quis vero ea eos porro et fugit perspiciatis illo.</p>
@@ -63,8 +63,8 @@
     </main>
 
   <!--Despliegues-->
-    <nav class="w-auto shadow p-3 mb-5 bg-body-tertiary rounded">
-        <div class="container mt-5 ml-0 col col-sm-12">
+    <nav class="w-auto shadow p-3 mb-5 bg-body-tertiary rounded" id="trabajos">
+        <div class="container mt-5 ml-0 col col-md-8">
             <ul class="nav nav-tabs" id="myTab" role="tablist">
               <li class="nav-item">
                 <a class="nav-link active" id="tab1-tab" data-toggle="tab" href="#tab1" role="tab" aria-controls="tab1" aria-selected="true">Educación <i class="fa-solid fa-graduation-cap"></i></a>
@@ -73,7 +73,7 @@
                 <a class="nav-link" id="tab2-tab" data-toggle="tab" href="#tab2" role="tab" aria-controls="tab2" aria-selected="false">Experiencia <i class="fa-solid fa-suitcase"></i></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" id="tab3-tab" data-toggle="tab" href="#tab3" role="tab" aria-controls="tab3" aria-selected="false">Portafolio <i class="fa-regular fa-folder"></i></a>
+                <a class="nav-link" id="tab3-tab" data-toggle="tab" href="#tab3" role="tab" aria-controls="tab3" aria-selected="false">Portafolio <i class="fa-solid fa-folder"></i></a>
               </li>
             </ul>
             <div class="tab-content" id="myTabContent">
@@ -123,10 +123,15 @@
                     </h2>
                     <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
                       <div class="accordion-body">
-                        <div class="">
-                          <img src="./assets/imgs/TATTOO.PNG" alt="PageExampleTatttoo" class="img-fluid">
+                        <div class="Example col d-flex align-items-end px-3" id="tattoo">
+                          <blockquote class="blockquote">
+                            <p>Inicios con CSS</p>
+                          </blockquote>
+                          <figcaption class="blockquote-footer">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam incidunt consequatur, tempore explicabo reiciendis, eveniet dolorum quod fuga facere et magnam! Neque nihil vitae blanditiis eos, alias enim quibusdam animi!
+                          </figcaption>
+                          
                         </div>
-                        <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
                       </div>
                     </div>
                   </div>
@@ -138,8 +143,17 @@
                     </h2>
                     <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                       <div class="accordion-body">
-                        <img src="./assets/imgs/Iguanas_page-0001.jpg" alt="ExamplePageMaqueta" class="img-fluid">
-                        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                        <div class="accordion-body">
+                          <div class="Example d-flex col align-items-end text-center fluid px-3" id="iguanas">
+                            <blockquote class="blockquote">
+                              <p>Aprendiendo Flexbox</p>
+                            </blockquote>
+                            <figcaption class="blockquote-footer">
+                              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam incidunt consequatur, tempore explicabo reiciendis, eveniet dolorum quod fuga facere et magnam! Neque nihil vitae blanditiis eos, alias enim quibusdam animi!
+                            </figcaption>
+                            
+                          </div>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -151,8 +165,17 @@
                     </h2>
                     <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                       <div class="accordion-body">
-                        <img src="./assets/imgs/CUPPON.PNG" alt="ExamplpeePageCuppon" class="img-fluid">
-                        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                        <div class="accordion-body">
+                          <div class="Example d-flex col align-items-end text-center fluid px-3"  id="cuppon">
+                            <blockquote class="blockquote">
+                              <p>BootStrap y sus Componentes</p>
+                            </blockquote>
+                            <figcaption class="blockquote-footer">
+                              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam incidunt consequatur, tempore explicabo reiciendis, eveniet dolorum quod fuga facere et magnam! Neque nihil vitae blanditiis eos, alias enim quibusdam animi!
+                            </figcaption>
+                            
+                          </div>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -164,8 +187,17 @@
                     </h2>
                     <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                       <div class="accordion-body">
-                        <img src="./assets/imgs/GIT.PNG" alt="ExamplePageGit" class="img-fluid">
-                        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                        <div class="accordion-body">
+                          <div class="Example d-flex col align-items-end text-center fluid px-3" id="git">
+                            <blockquote class="blockquote">
+                              <p>Git y Github</p>
+                            </blockquote>
+                            <figcaption class="blockquote-footer">
+                              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam incidunt consequatur, tempore explicabo reiciendis, eveniet dolorum quod fuga facere et magnam! Neque nihil vitae blanditiis eos, alias enim quibusdam animi!
+                            </figcaption>
+                            
+                          </div>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -180,22 +212,24 @@
   
   <!--Formulario-->
     <footer>
-      <form class="bg-primary p-5">
-        <h3 class="text-center"><i class="fa-solid fa-arrow-right"></i>Escríbeme para mayor información</h3>
-        <div class="mb-3">
-          <label for="exampleInputEmail1" class="form-label mt-5">Email</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-        </div>
-        <div class="mb-3">
-          <label for="exampleInputPassword1" class="form-label">Comentarios</label>
-          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-        </div>
-        <div class="mb-3 form-check">
-          <input type="checkbox" class="form-check-input" id="exampleCheck1">
-          <label class="form-check-label" for="exampleCheck1">Quiero recibir promociones e información de eventos</label>
-        </div>
-        <button type="submit" class="btn btn-dark">Submit</button>
-      </form>
+      <div id="contacto">
+        <form class="bg-primary p-5">
+          <h3 class="text-center"><i class="fa-solid fa-arrow-right"></i>Escríbeme para mayor información</h3>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label mt-5">Email</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Comentarios</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+          <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Quiero recibir promociones e información de eventos</label>
+          </div>
+          <button type="submit" class="btn btn-dark">Enviar Mensaje</button>
+        </form>
+      </div>
 
     </footer>
     

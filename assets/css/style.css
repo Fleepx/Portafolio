@@ -10,3 +10,21 @@
     width: auto;
     justify-content: start;
 }
+.Example {
+    background-repeat: no-repeat;
+    background-position: start;
+    background-size:cover;
+    height: 20rem;
+}
+#tattoo {
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgb(255, 255, 255) 100%), url(../imgs/TATTOO.PNG);
+}
+#iguanas {
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%), url(../imgs/Iguanas_page-0001.jpg);
+}
+#cuppon  {
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%), url(../imgs/CUPPON.PNG);
+}
+#git {
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%), url(../imgs/GIT.PNG);
+}

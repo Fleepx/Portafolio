@@ -3,13 +3,21 @@
     padding: 0;
     font-family: "Montserrat", sans-serif;
 }
+/*Meenu*/
 .menu {
     background-color:darkgrey;
 }
+.nombre {
+    
+}
+
+/*Cuerpo*/
 .perfil {
     width: auto;
     justify-content: start;
 }
+
+/*Despliegues*/
 .Example {
     background-repeat: no-repeat;
     background-position: start;

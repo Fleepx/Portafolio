@@ -1,0 +1,99 @@
+* {
+    margin: 0px;
+}
+body {
+    width: 1280px;
+}
+header, main, footer {
+    background-color: black;
+}
+h1, h2, p, i {    
+    font-family: "Raleway", sans-serif;
+    color: white;
+    text-align: center;
+}
+
+/* ENCABEZADO */
+.header {
+    display: flex;
+    flex-direction: column;
+}
+#iguanas {
+    font-size: 50px; 
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+#img1 {
+    width: 1280px;
+    height: 727px;
+}
+
+/* PRIMERA CAJA - TEXTO Y FOTO */
+.box1 {
+    height: 348px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-evenly;
+}
+.cuerpo {
+    width: 475px;
+    font-size: 16px;
+}
+#text {
+    text-align: left;
+}
+#iguana1 {
+    width: 399px;
+    height: 237px;
+}
+
+/* SEGUNDA CAJA - ICONOS */
+.box2 {
+    display: flex;
+    flex-direction: column;
+    background-color: #1E1A13;
+    gap: 70px;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+#iconos {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-left: 150px;
+    padding-right: 150px;
+    font-size: 24px;
+}
+.icono {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-size: 25px;
+}
+#caracteristicas {
+    font-size: 40px;
+}
+
+/* TERCERA CAJA - GALERIA */
+.box3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 140px;
+    padding-right: 140px;
+    align-items: center;
+    height: 348px;
+}
+.galeria {
+    height: 202px;
+}
+
+/* PIE DE PAGINA */
+.link {
+    padding-top: 39px;
+    padding-bottom: 39px;
+    background-color: #1E1A13;
+}
+

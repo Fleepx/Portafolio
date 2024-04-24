@@ -5,23 +5,26 @@
 }
 /*Menu*/
 .menu {
-    background-color:darkgrey;
+    background-color:rgb(43, 42, 42);
 }
 .encabezado {
     margin-left: 5rem;
     margin-top: 5rem;
+}
+menu {
+
 }
 
 /*Cuerpo*/
 .perfil {
     width: auto;
     justify-content: start;
+    max-height: 45rem;
 }
 .cuerpo {
     display: flex;
     align-self: center;
     flex-direction: column;
-    
 }
 main {
     background-image: url(../imgs/colores-fondo.png);
@@ -48,4 +51,10 @@ main {
 }
 #git {
     background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%), url(../imgs/GIT.PNG);
+}
+/*Formulario*/
+footer {
+    background-image: url(../imgs/fondo-codigo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }

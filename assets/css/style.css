@@ -54,7 +54,7 @@ main {
 }
 /*Formulario*/
 footer {
-    background-image: url(../imgs/fondo-codigo.jpg);
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 0) 0%, rgb(255, 255, 255) 100%), url(../imgs/fondo-codigo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }

@@ -7,12 +7,26 @@
 .menu {
     background-color:darkgrey;
 }
-
+.encabezado {
+    margin-left: 5rem;
+    margin-top: 5rem;
+}
 
 /*Cuerpo*/
 .perfil {
     width: auto;
     justify-content: start;
+}
+.cuerpo {
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    
+}
+main {
+    background-image: url(../imgs/colores-fondo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /*Despliegues*/
@@ -21,6 +35,7 @@
     background-position: start;
     background-size:cover;
     height: 20rem;
+    flex-direction: column-reverse;
 }
 #tattoo {
     background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgb(255, 255, 255) 100%), url(../imgs/TATTOO.PNG);
